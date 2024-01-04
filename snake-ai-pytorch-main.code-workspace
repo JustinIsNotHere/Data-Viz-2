@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../snake-ai-pytorch-main"
+		},
+		{
+			"path": "../../.ipynb_checkpoints"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
