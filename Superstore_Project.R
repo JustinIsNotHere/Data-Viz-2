@@ -11,11 +11,12 @@ data2 <- data |>
   separate(customer_name, " ",
            into = c("n1","n2","n3"),
            remove=FALSE)
+# comment comment comment
 data2 |> view()
 data2 <- data2 |>
   drop_na(3)
 data2|> view()
-n_distinct(data2$customer_name)
+n_distinct(data2$customer_name) new changes to r file
 data <- data |>
   separate(customer_name, " ",
                           into = c("n1","n2","n3"),
